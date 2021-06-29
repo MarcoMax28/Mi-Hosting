@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CURSOS</title>
+</head>
+<body>
+    <div id="wrapper">
+        <!--    BANNER-->
+        <div id="banner-wrapper">
+            <header>
+                <div class="header-inner">
+                    <a href="index.html" id="logo">
+                        <img src="img/logo-cer.jpg" alt="logo-emp">
+                     </a>
+                      <!-- Responsive-->
+                    <nav>
+                        <a href="#" id="menu-icon">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="current">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Soluciones</a>
+                            </li>
+                            <li>
+                                <a href="productos.html">Productos</a>
+                            </li>
+                            <li>
+                                <a href="cursos.html">Cursos</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- Navegacion y Slider-->
+            <section class="slide-wrap">
+                <ul class="slider1">
+                    <li><img src="img/banner-cisco1.jpg" alt="sla-1"></li>
+                    <li><img src="img/banner-cisco2.jpg" alt="sla-2"></li>
+                    <li><img src="img/banner-cisco4.jpg" alt="sla-3"></li>
+                </ul>
+            </section>           
+        </div>
+    </div>
+
+    <section class="one-third" id="skills">
+        
+            <img src="img/cursos-1.png" alt="cur-3">
+       
+        <h3>CCNA ROUTING AND SWITCHING</h3>
+        <p>El Curso CISCO CCNA IP Routing y Switching corresponde al primer nivel de formación del Cisco
+             Networking Academy Program (CNAP). En él te formarás en el diseño, construcción y mantenimiento
+              de redes de ordenadores.</p>
+    </section>
+
+    <section class="one-third" id="skills">
+        
+            <img src="img/cursos-2.png" alt="cur-2">
+       
+        <h3>CCNP</h3>
+        <p>La Certificación Cisco Certified Network Professional (CCNP) te aprueba la habilidad para planificar, 
+            implementar, verificar y resolver problemas de redes locales. De igual forma te permite trabajar en 
+            colaboración con especialistas en soluciones avanzadas de seguridad, voz, wireless y video.</p>
+    </section>
+    
+    <section class="one-third" id="skills">
+       
+            <img src="img/cursos-3.png" alt="cur-3">
+        
+        <h3>SEGURIDAD CEH</h3>
+        <p>Un Certified Ethical Hacker es un profesional capacitado que entiende y sabe cómo buscar debilidades y 
+            vulnerabilidades en los sistemas principales y utiliza los mismos conocimientos y herramientas que un 
+            hacker malicioso, pero de manera legal y legítima para evaluar la postura de seguridad de uno o varios 
+            sistemas.</p>
+    </section>
+
+    <footer class="footer-second">
+        <p> &copy; 2021 Derechos de Autor: Marco Antonio Laura FLores Ing_SIS </p>
+    </footer>
+
+     <!-- SCRIPS SLIDER-->
+     <script>
+        $(document).ready(function(){
+            $('.slider1').bxSlider({
+                mode:'fade' 
+            })
+            $('.slider2').bxSlider({
+                mode:'fade' 
+            })
+            $('.slider3').bxSlider({
+                mode:'fade' 
+            })
+        })
+    </script>
+</body>
